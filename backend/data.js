@@ -1,0 +1,37 @@
+export default {
+  products: [
+    {
+      _id: "1",
+      name: "Slim Shirt",
+      category: "Shirts",
+      image: "/images/d1.jpg",
+      price: 60,
+      brand: "Cantabil",
+      rating: 4.5,
+      numReviews: 10,
+      countInStock: 6,
+    },
+    {
+      _id: "2",
+      name: "Fit Shirt",
+      category: "Shirts",
+      image: "/images/d2.jpg",
+      price: 70,
+      brand: "Monte Carlo",
+      rating: 4.8,
+      numReviews: 9,
+      countInStock: 6,
+    },
+    {
+      _id: "3",
+      name: "Best pants",
+      category: "Pants",
+      image: "/images/d3.jpg",
+      price: 80,
+      brand: "Van Heusen",
+      rating: 4.9,
+      numReviews: 10,
+      countInStock: 0,
+    },
+  ],
+};
